@@ -130,7 +130,7 @@ function Main() {
             className="bg-blue-800"
           />
         </div>
-        <p className='font-normal md:w-3/4'>
+        <p className='font-normal md:w-3/4 ml-4'>
           The annual Genius Zambia competition acknowledges inventive contributions in science,
           technology, engineering, and mathematics (STEM).<br/>
           ZStudy, a participant, triumphed in the 2021 competition for their unique educational platform.<br/>
@@ -153,7 +153,7 @@ function Main() {
             className="bg-red-800"
           />
         </div>
-        <p className='font-normal md:w-3/4'>
+        <p className='font-normal md:w-3/4 ml-4'>
           ZStudy is a groundbreaking platform revolutionizing education in Zambia by digitizing learning,<br/>
           making it accessible and affordable. It addresses issues of time and cost, offering<br/>
           an interactive, personalized mobile learning experience.<br/>
@@ -174,7 +174,7 @@ function Main() {
             height={150}
           />
         </div>
-        <p className='font-normal md:w-3/4'>
+        <p className='font-normal md:w-3/4 ml-4'>
           The Internet of Things (IoT) is a rapidly expanding domain that revolutionizes industries and our daily lives.<br/>
           It encompasses internet-connected physical devices, from smart appliances to industrial machines.<br/>
           Learning about IoT is crucial to comprehend its workings and apply it across sectors.<br/>
@@ -194,7 +194,7 @@ function Main() {
             height={150}
           />
         </div>
-        <p className='font-normal md:w-3/4'>
+        <p className='font-normal md:w-3/4 ml-4'>
         The courses on the ZStudy platform are taught by experienced and knowledgeable instructors,<br/>
         ensuring that students receive a high-quality education. <br/>
         Whether you are a student at University or simply a GCE seeking to pass your exams, <br/>
@@ -212,7 +212,7 @@ function Main() {
             height={150}
           />
         </div>
-        <p className='font-normal md:w-3/4'>
+        <p className='font-normal md:w-3/4 ml-4'>
         With ZStudy, you have the flexibility to learn at your own pace and on your own schedule. <br/>
         Whether you are a busy student or simply looking to fit learning into your busy life,<br/>
         ZStudy makes it easy to fit education into your routine. <br/>
@@ -232,7 +232,7 @@ function Main() {
             className='pb-6'
           />
         </div>
-        <p className='container text-lg font-medium md:w-3/4'>
+        <p className='container text-lg font-medium md:w-3/4 ml-4'>
         The ZStudy STEM kit is a groundbreaking educational resource designed for aspiring STEM professionals in Zambia.<br/> 
         Packed with a diverse array of Awards and Ambitions and materials, the kit enables students to delve into numerous subjects, 
         from embedded systems to microcontroller programming, electronics, and more.<br/> 
@@ -253,7 +253,7 @@ function Main() {
             height={150}
           />
         </div>
-        <p className='font-medium md:w-3/4 text-blue-900'>
+        <p className='font-medium md:w-3/4 text-blue-900 ml-4'>
         Hands-on Experience: Students gain practical, hands-on experience, enhancing their understanding of these technologies.<br/>
         Diverse Resources: The kit includes tools for I2C protocol communication, motor control via the L298 module, <br/>
         and compatibility with a GSM module add-on, enabling exploration of various topics.<br/>
@@ -274,7 +274,7 @@ function Main() {
             height={150}
           />
         </div>
-        <p className=' font-medium md:w-3/4 text-blue-900'>
+        <p className=' font-medium md:w-3/4 text-blue-900 ml-4'>
         The ZStudy STEM kit is a safe and user-friendly learning tool for children, with a low voltage design that minimizes the risk of injury or harm.<br/> 
         The kit also comes with a user manual, providing clear and concise instructions for students to<br/> follow as they explore the various Awards 
         and Ambitions and resources of the kit. <br/>
