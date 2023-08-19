@@ -1,6 +1,5 @@
-
 import React, { useState, useEffect } from 'react';
-import Image from '../../../node_modules/next/image';
+import Image from 'next/image';
 
 interface Slide {
   src: string;
@@ -40,24 +39,24 @@ const Slideshow: React.FC<SlideshowProps> = ({ slides }) => {
           <Image
             src={slide.src}
             alt={slide.alt}
-            fill={true}
+            layout="fill"
           />
         </div>
       ))}
 
       {/* Next and previous buttons */}
-          <a
-            className="prev absolute top-1/2 text-3xl left-0 transform -translate-y-1/2 cursor-pointer"
-            onClick={() => plusSlides(-1)}
-          >
-            &#10094;
-          </a>
-          <a
-            className="next absolute top-1/2 text-3xl right-0 transform -translate-y-1/2 cursor-pointer"
-            onClick={() => plusSlides(1)}
-          >
-            &#10095;
-          </a>
+      <a
+        className="prev absolute top-1/2 text-3xl left-0 transform -translate-y-1/2 cursor-pointer"
+        onClick={() => plusSlides(-1)}
+      >
+        &#10094;
+      </a>
+      <a
+        className="next absolute top-1/2 text-3xl right-0 transform -translate-y-1/2 cursor-pointer"
+        onClick={() => plusSlides(1)}
+      >
+        &#10095;
+      </a>
     </div>
   );
 };
