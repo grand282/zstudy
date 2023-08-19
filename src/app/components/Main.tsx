@@ -16,10 +16,6 @@ const slides = [
     src: '/assets/edu2.jpg',
     alt: 'Slide 3',
   },
-  {
-    src: '/assets/online.jpg',
-    alt: 'Slide 4',
-  },
 ];
 function Main() {
   return (
